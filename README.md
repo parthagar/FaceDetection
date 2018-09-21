@@ -22,6 +22,10 @@ After reproducing the repo in your device, to run the code, type `python face_de
 2) Detect faces by Haar features with/without eye detection (faster but less accurate and able to detect faces on when face is properly visible/aligned to image capturing point)
 3) Detect faces by DNN model without eye detection (slower but more accurate and can detect faces at a variety of angles)
 
+### To-do
+1) Add FPS for the feed
+2) Use threading for faster processing
+
 ### References
 1) https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
 2) https://docs.opencv.org/master/d7/d8b/tutorial_py_face_detection.html
