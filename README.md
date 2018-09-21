@@ -1,9 +1,9 @@
 # Face Detection
 
 ### Requirements
-You can install Conda for python which resolves all the dependencies for this project.
+You can install Conda for python which resolves all the dependencies for this project
 or run 
-##### pip install requirements.txt
+`pip install requirements.txt`
 
 ### Description
 I have combined Face Detection using Haar Features (which includes eye detection as well) and Face Detection using DNN model by taking inspiration and ideas from the references mentioned below.
