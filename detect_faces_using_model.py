@@ -72,6 +72,11 @@ def __Image_without_eye_detection(img):
                     cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
 
     cv2.imshow('Image', color_frame)
+    
+    k = cv2.waitKey(1) & 0xFF
+        # 32 is the code for spacebar button
+        if k == 32:
+            break
 
 
 def detect_faces_using_model(choice = 1):
